@@ -3,28 +3,42 @@
 <head>
   <meta charset="utf-8">
   <title>Random Quote Machine</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link  rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link  rel="stylesheet" type="text/css"
-        href='http://fonts.googleapis.com/css?family=Droid+Serif'>
-<script
-src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-</script>
-<script src="scripts/script.js"></script>
-
-  </head>
+  <script src="scripts/script.js"></script>
+</head>
   <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="scripts/script.js"></script>
 
-    <div class="content">
-      <h1 class="googlefont">What the Hell!</h1>
-
-      <div class="quotes"></div>
-
-      <button class="button">Next Quote</button>
-      <button class="twitter">Tweet Me!</button>
-
-    </div>
+    <div class="container">
+      <h2>Random Quote Generator</h2>
+        <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+          <div class="well quoteWell">
+            <i class="fa fa-quote-left fa-3x" aria-hidden"true"></i>
+    				<blockquote>
+    					<p class="quote" id="quote">I fear the day that technology will surpass our human interaction.
+              The world will have a generation of idiots.</p>
+    					<footer><cite class="author" title="author" id="author">Albert Einstein</cite></footer>
+    				</blockquote>
+            <div class="btn-group pull-right">
+              <button type="button" class="btn btn-primary btnQuote">
+                <i class="fa fa-refresh fa-spin fa-2x"></i>
+              </button>
+              <a href="#" class="btn btn-default btntweet">
+                <i class="fa fa-twitter fa-2x"></i>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
   </body>
 </html>

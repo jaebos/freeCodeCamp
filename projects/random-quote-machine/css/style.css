@@ -1,35 +1,19 @@
-.googlefont {
-  font-family: 'Oxygen', sans-serif;
-}
-
 body {
-  //background: url(http://i.imgur.com/RjATI2r.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+background: url() repeat;
 }
 
-.button {
-  font-family: 'Oxygen', sans-serif;
-  font-size: 25px;
-  color: 6CA398;
-  padding: 10px 10px 10px 10px;
-  border-radius: 25px;
-  border: 2px solid #46b8da;
+
+.quoteWell {
+	margin-top: 90px;
 }
 
-.twitter {
-  font-family: 'Oxygen', sans-serif;
-  font-size: 25px;
-  color: 6CA398;
-  padding: 10px 10px 10px 10px;
-  border-radius: 25px;
-  border: 2px solid #46b8da;
-  background-color: #5bc0de;
-}
-
-.content {
-  text-align: right;
-  width:400px;
-  position: absolute;
-  right: 15px;
+.fa-quote-left {
+	color: #444;
+	background: #eee;
+	border: 2px solid #ccc;
+	padding: 10px 12px;
+	border-radius: 100%;
+	position: absolute;
+	top: 45px;
+	left: 42%;
 }
