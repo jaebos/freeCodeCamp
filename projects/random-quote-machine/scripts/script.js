@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var randomQuote = '';
+  var randomQ = '';
 
   getQuote();
 
@@ -55,17 +55,17 @@ function getQuote() {
               { quote: 'Don\'t let schooling interfere with your education.', cite: 'Mark Twain' },
               { quote: 'Whenever you find yourself on the side of the majority, it is time to pause and reflect.', cite: 'Mark Twain' },
               { quote: 'A nickel ain\'t worth a dime anymore.', cite: 'Yogi Berra' },
-              { quote: 'Little League baseball is a very good thing becuase it keeps the parents off the streets.', cite: 'Yogi Berra' }
+              { quote: 'Little League baseball is a very good thing because it keeps the parents off the streets.', cite: 'Yogi Berra' }
             ];
 
-            randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-
-            $('p', '.quotes').text(randomQuote);
-  //          $('cite', '.quote').text([randomQuote].cite);
-
+            var randomQ = Math.floor(Math.random()*quotes.length);
+            $('p', '.quote').text(quotes[randomQ].quote);
+        $('cite', '.quote').text(quotes[randomQ].cite);
           }
+         $('.btnQuote').click(function(){
+           getQuote();
+         });
 
-          $('.btnQuote').click(function() {
-              getQuote();
-            });
+  //          $('.quotes').text(randomQuote);
+  //          $('cite', '.quote').text([randomQuote].cite);
 });
