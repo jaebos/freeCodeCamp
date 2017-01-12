@@ -58,7 +58,7 @@ function getQuote() {
               { quote: 'Little League baseball is a very good thing because it keeps the parents off the streets.', cite: 'Yogi Berra' }
             ];
 
-            var randomQ = Math.floor(Math.random()*quotes.length);
+            randomQ = Math.floor(Math.random()*quotes.length);
             $('p', '.quote').text(quotes[randomQ].quote);
         $('cite', '.quote').text(quotes[randomQ].cite);
           }
@@ -66,6 +66,4 @@ function getQuote() {
            getQuote();
          });
 
-  //          $('.quotes').text(randomQuote);
-  //          $('cite', '.quote').text([randomQuote].cite);
 });
