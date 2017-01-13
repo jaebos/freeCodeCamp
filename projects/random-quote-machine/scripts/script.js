@@ -55,7 +55,8 @@ function getQuote() {
               { quote: 'Don\'t let schooling interfere with your education.', cite: 'Mark Twain' },
               { quote: 'Whenever you find yourself on the side of the majority, it is time to pause and reflect.', cite: 'Mark Twain' },
               { quote: 'A nickel ain\'t worth a dime anymore.', cite: 'Yogi Berra' },
-              { quote: 'Little League baseball is a very good thing because it keeps the parents off the streets.', cite: 'Yogi Berra' }
+              { quote: 'Little League baseball is a very good thing because it keeps the parents off the streets.', cite: 'Yogi Berra' },
+              { quote: 'You are never to old to set another goal or to dream a new dream.', cite: 'C.S. Lewis'}
             ];
 
             randomQ = Math.floor(Math.random()*quotes.length);

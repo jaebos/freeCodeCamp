@@ -1,11 +1,21 @@
 body {
-background: url() repeat;
+background: ;
 }
 
+h1 {
+	font-family: 'Tangerine', serif;
+	font-size: 60px;
+	text-shadow: 4px 4px 4px #aaa;
+}
+ p {
+	 font-family: 'Raleway', sans-serif;
+	 font-size: 25px;
+ }
 
 .quoteWell {
 	margin-top: 90px;
 }
+
 
 .fa-quote-left {
 	color: #444;
