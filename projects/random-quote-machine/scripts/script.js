@@ -4,8 +4,6 @@ $(document).ready(function() {
 
   getQuote();
 
-
-
 function getQuote() {
 
   var quotes = [
@@ -41,7 +39,7 @@ function getQuote() {
               { quote: 'I like nonsense, it wakes up the brain cells., Dr. Seuss' },
               { quote: 'The more you read, the more things you will know. The more that you learn, the more places youll go.', cite: 'Dr. Seuss' },
               { quote: 'Cock your hat - angles are attitudes.', cite: 'Frank Sinatra' },
-              { quote: 'ALcohol may be a mans worst enemy, but the Bible says love your enemy.', cite: 'Frank Sinatra' },
+              { quote: 'Alcohol may be a mans worst enemy, but the Bible says love your enemy.', cite: 'Frank Sinatra' },
               { quote: 'Progress is impossible without change, and those who cannot change their minds cannot change anything.', cite: 'George Bernard Shaw' },
               { quote: 'Just do what must be done. This may not be happiness, but it is greatness.', cite: 'George Bernard Shaw' },
               { quote: 'Success does not consist in neer aking mistakes but in never making the same one a second time.', cite: 'George Bernard Shaw' },

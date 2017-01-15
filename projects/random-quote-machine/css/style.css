@@ -1,7 +1,3 @@
-body {
-background: ;
-}
-
 h1 {
 	font-family: 'Tangerine', serif;
 	font-size: 60px;
@@ -12,18 +8,7 @@ h1 {
 	 font-size: 25px;
  }
 
-.quoteWell {
-	margin-top: 90px;
-}
+.q {
+	margin-top: 50px;
 
-
-.fa-quote-left {
-	color: #444;
-	background: #eee;
-	border: 2px solid #ccc;
-	padding: 10px 12px;
-	border-radius: 100%;
-	position: absolute;
-	top: 45px;
-	left: 42%;
 }
